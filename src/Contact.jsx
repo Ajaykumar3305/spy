@@ -26,7 +26,7 @@ export default function Contact() {
     setIsSubmitting(true);
     const subject = encodeURIComponent("Contact Form Submission from Portfolio");
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
-    const mailtoLink = `mailto:alladaajay2005@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:bonugusantosh@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
 
     setTimeout(() => {
